@@ -1,6 +1,10 @@
 // Number
+let f=23;
+console.log(f);
 
 // String 
+const fname="rishab";
+console.log(fname);
 const data="Abcd12@12";
 console.log(data);
 console.log(typeof(data));
