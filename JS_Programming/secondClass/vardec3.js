@@ -1,0 +1,15 @@
+debugger
+var a=10;
+console.log(a);
+a=20;
+console.log(a);
+
+function display()
+{
+    console.log(a);
+    var a=30;
+    console.log(a);
+}
+
+display();
+console.log(a);
