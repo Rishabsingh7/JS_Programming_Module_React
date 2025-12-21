@@ -29,3 +29,8 @@ var m=10;
 
 
  // 7. Symbol :- Unique value - one of the datatype in javascript -symbol
+
+
+
+ //9. Strictly Equality Operator
+ //     
