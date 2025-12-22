@@ -51,7 +51,13 @@ let b=20;
            variable of var
 
 
-           
+  # Function Hoisting: we invoke the function before the function definition in the program
+                      and we getting output/execute function only for function declaration not 
+                      for function expression.
+                      
+
+
+
 
 
 
