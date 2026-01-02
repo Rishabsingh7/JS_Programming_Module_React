@@ -70,3 +70,5 @@ console.log(empobj1);
 
 
 console.log(empobj==empobj1)
+delete empobj1.info;
+console.log(empobj1);

@@ -42,9 +42,42 @@ console.log(addharNumber.padEnd(12,"#"));
 
 
 
-//str=' Itview Solution '
+str1=' Itview Solution '
 let result=str.split(" ")
 console.log(result[0])
 console.log(str)//split do not change any original string value 
+
+//slice function that take given string in some part with starting index and end index 
+// and exclude the end index value.
+console.log(str);
+console.log(str1.slice(0,5));//Itvie
+console.log(str1);
+
+console.log(str.substring(0,5));
+console.log(str.substring(0,-1));
+console.log(str.substring(5,-2));
+console.log(str.substring(2,4));
+console.log(str.substring(4,2));
+console.log(str.substring(-2,-3));
+console.log(str.slice(2));
+console.log(str.substring(2));
+
+
+
+
+/**
+ *    String Operation
+ * 
+ * Split()- They split the string in substring (subpart) with delimiter
+ *          which is we passed as a parameter.
+ *           
+ *          str.split('')
+ * slice()- slice it's take a substring from given string using start index and end 
+ *          index but exclude the value of the end index.
+ * 
+ * substring() -> substring function also return the substring value from given input string 
+ *               but they do not operate on negative values of parameter.
+ */
+
 
 
