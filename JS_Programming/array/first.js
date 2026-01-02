@@ -22,3 +22,5 @@ let arr=['Valtriix', 12, true, null, undefined, obj,
 ]
 console.log(arr);
 console.log(arr[3]);
+console.log(arr[7]());
+console.log(typeof(arr));
