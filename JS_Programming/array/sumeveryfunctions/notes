@@ -1,0 +1,18 @@
+/**
+Array Some And Every Function
+
+Some Function: syntax:- array.some(callback function)
+
+They return either true or false value from the callback function.
+When they return true value if any one of element of array satisfied.
+the condition of a call back function first time then they return true otherwise
+check for every element of array and return false.
+
+Every Function: This is exactly opposite of some function 
+                They check the the condition of call back function on every element of 
+                array and if it is not satisfied by any one of element then immediately
+                they return false otherwise they apply the condition on every element
+                then finally return true value.
+                
+
+ */
